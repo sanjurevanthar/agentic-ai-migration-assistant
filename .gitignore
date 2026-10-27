@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+build/
+dist/
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environment & secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Node (if a UI is added)
+node_modules/
+
+# Terraform / infra
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+
+# Local data
+*.sqlite
+*.db
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+
+# Claude Code local settings
+.claude/settings.local.json
